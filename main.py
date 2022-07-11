@@ -21,7 +21,7 @@ class TestSum(unittest.TestCase):
         self.assertEqual(equals('hello friend', 'hellofriend'), False, "Не палиндром")
 
     def test_fullrandom(self):
-        self.assertEqual(equals('abcdqwer', 'qdwcebra'), True, "Не палиндром")
+        self.assertEqual(equals('abcdqwer', 'qdwcebra'), True, "Палиндром")
 
 
 unittest.main()
