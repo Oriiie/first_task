@@ -1,5 +1,4 @@
 import random
-import unittest
 
 
 def create_file():
